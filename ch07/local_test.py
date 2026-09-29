@@ -1,7 +1,7 @@
 def myfnc(x):
-    print("inside myfnc", x)
+    print(f"inside myfnc {x}")
     x = 10
-    print("inside myfnc", x)
+    print(f"inside myfnc {x}")
 
 x = 20
 myfnc(x)

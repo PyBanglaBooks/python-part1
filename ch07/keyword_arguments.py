@@ -1,5 +1,5 @@
 def myfnc(x, z, y=10):
-    print("x =", x, "y =", y, "z =", z)
+    print(f"x = {x} y = {y} z = {z}")
 
 myfnc(x=1, y=2, z=5)
 myfnc(x=5, z=6)

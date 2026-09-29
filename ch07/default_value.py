@@ -1,5 +1,5 @@
 def myfnc(y=10):
-    print("y =", y)
+    print(f"y = {y}")
 
 x = 20
 myfnc(x)

@@ -4,7 +4,7 @@ def is_prime1(n):
     prime = True
     for x in range(2, n):
         if n % x == 0:
-            print(n, "is divisible by", x)
+            print(f"{n} is divisible by {x}")
             prime = False
     return prime
 
@@ -13,6 +13,6 @@ while True:
     if number == 0:
         break
     if is_prime1(number):
-        print(number, "is a prime number.")
+        print(f"{number} is a prime number.")
     else:
-        print(number, "is not a prime number.")
+        print(f"{number} is not a prime number.")

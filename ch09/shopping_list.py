@@ -9,4 +9,4 @@ while True:
 shopping_list.sort()
 print("Your shopping list:")
 for item in shopping_list:
-    print("-", item)
+    print(f"- {item}")
