@@ -1,9 +1,9 @@
 import turtle
 
 size = int(input("How big should the square be? "))
-color_name = input("What color? (red, blue, green): ")
+pen = int(input("How thick should the pen be? (1-10): "))
 
-turtle.color(color_name)
+turtle.width(pen)
 turtle.forward(size)
 turtle.left(90)
 turtle.forward(size)
