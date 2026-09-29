@@ -1,0 +1,5 @@
+line = input()
+parts = line.split()
+a = int(parts[0])
+b = int(parts[1])
+print(f"a is {a}, b is {b}, sum is {a + b}")
