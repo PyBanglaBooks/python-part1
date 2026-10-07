@@ -6,9 +6,7 @@ def draw_square(side_length):
         turtle.left(90)
 
 turtle.speed(0)
-counter = 0
-while counter < 90:
+for _ in range(90):
     draw_square(100)
     turtle.right(4)
-    counter += 1
 turtle.exitonclick()
