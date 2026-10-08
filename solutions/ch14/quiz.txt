@@ -1,0 +1,3 @@
+What is 2 + 2?,4
+What is the capital of Bangladesh?,Dhaka
+How many districts are in Bangladesh?,64

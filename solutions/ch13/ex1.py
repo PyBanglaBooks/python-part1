@@ -1,0 +1,4 @@
+# অধ্যায় ১৩, অনুশীলনী ১
+
+with open("diary.txt", "r", encoding="utf-8") as f:
+    print(f.read())
