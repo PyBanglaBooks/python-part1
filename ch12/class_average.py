@@ -1,7 +1,7 @@
 classroom = [
     {"name": "Rahim", "marks": 85},
     {"name": "Karim", "marks": 78},
-    {"name": "Nusrat", "marks": 92},
+    {"name": "Rafi", "marks": 92},
 ]
 
 total = 0
