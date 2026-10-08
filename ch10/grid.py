@@ -9,7 +9,7 @@ for row in range(3):
         turtle.penup()
         turtle.forward(60)
         turtle.pendown()
-    # সারি শেষ: বাঁয়ে ফিরে এক ধাপ নিচে নামা
+    # end of row: back to the left, one step down
     turtle.penup()
     turtle.backward(180)
     turtle.right(90)
