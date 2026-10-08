@@ -1,7 +1,7 @@
 quiz = {
     "What is the capital of Bangladesh?": "Dhaka",
     "What is 5 + 5?": "10",
-    "Who wrote this book?": "Tamim",
+    "How many districts are in Bangladesh?": "64",
 }
 
 score = 0
