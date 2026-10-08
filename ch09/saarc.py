@@ -1,4 +1,5 @@
-saarc = ["Bangladesh", "Afghanistan", "Bhutan", "Nepal", "India", "Pakistan", "Sri Lanka"]
+saarc = ["Bangladesh", "Afghanistan", "Bhutan", "Nepal",
+         "India", "Pakistan", "Sri Lanka"]
 country = input("Enter the name of the country: ")
 
 if country in saarc:
