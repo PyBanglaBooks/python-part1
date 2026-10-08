@@ -1,6 +1,6 @@
 import math
 
-def is_prime4(n):
+def is_prime3(n):
     if n < 2:
         return False
     if n == 2:
@@ -13,5 +13,5 @@ def is_prime4(n):
             return False
     return True
 
-primes = [n for n in range(1, 50) if is_prime4(n)]
+primes = [n for n in range(1, 50) if is_prime3(n)]
 print(primes)
